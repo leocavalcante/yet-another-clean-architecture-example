@@ -1,0 +1,27 @@
+{
+    "name": "yacae/todo-list",
+    "description": "This is for the internal layers that don't know frameworks, databases, UIs etc",
+    "type": "project",
+    "require-dev": {
+        "pestphp/pest": "^1.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leocavalcante",
+            "email": "lc@leocavalcante.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TodoList\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TodoListTest\\": "tests/"
+        }
+    }
+}
